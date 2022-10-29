@@ -117,11 +117,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 }, false);
 
-
-myimgdivtoggle.animate(
-  { transform: 'translateY(0)'}, 
-  {
-    duration: 500,
-    fill: 'forwards'
-  });
-
