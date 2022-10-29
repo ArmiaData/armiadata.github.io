@@ -2,3 +2,10 @@ $main: #2a5d63;
 $sec: #4B5664;
 $purple: #54516A;
 $cut: 550px;
+
+
+$(document).ready(function(){
+	$('.togglebtn').click(function(){
+   		$('.myimgdivtoggle').toggle();
+	});
+});
