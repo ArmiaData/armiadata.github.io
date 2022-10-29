@@ -123,24 +123,7 @@
 
 .myimgdivtoggle{
 	display:none;
-	margin: 20px auto;
-	img {
-		max-width: 50% !important;
-		height: auto;
-		border-radius: 5px;
-	}	
 }
 
-.img-center {
-  @media only screen and (min-width: $cut) {
-    float: center;
-    width: 20% !important;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: center;
-    }
-  }
-}
 
   
