@@ -4,8 +4,3 @@ $purple: #1c3943;
 $cut: 550px;
 
 
-$(document).ready(function(){
-	$('.togglebtn').click(function(){
-   		$('.myimgdivtoggle').toggle();
-	});
-});
