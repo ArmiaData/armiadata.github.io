@@ -123,16 +123,12 @@
 
 .myimgdivtoggle{
 	display:none;
-	
-.qrdiv {
-  margin: 20px auto;
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-
-}
+	margin: 20px auto;
+	img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 5px;
+	}	
 
 .img-center {
   @media only screen and (min-width: $cut) {
