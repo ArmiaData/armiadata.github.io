@@ -125,5 +125,3 @@ myimgdivtoggle.animate(
     fill: 'forwards'
   });
 
-});
-
