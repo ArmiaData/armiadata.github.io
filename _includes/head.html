@@ -19,12 +19,13 @@
 
 <!--import jquery library-->
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+	
 <!--jquery function to view QR code on toggle-->
 	<script>
 		$(document).ready(function(){
 			$('.togglebtn').click(function(){
-				$('.myimgdivtoggle').slideToggle('2000', "swing");
+				$('.myimgdivtoggle').toggle( "fold", 1000 );
 			});
 		});
 	</script>
